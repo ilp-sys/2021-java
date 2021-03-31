@@ -45,6 +45,6 @@ public class CashRegister {
         double change = payment - purchase;
         purchase = 0;
         payment = 0;
-        return 0;
+        return change;
     }
 }
