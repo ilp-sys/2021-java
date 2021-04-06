@@ -32,4 +32,6 @@ public class BankAccount {
     public double getBalance(){
         return balance;
     }
+
+    public boolean isOverDrawn(){ return balance < 0; }
 }
