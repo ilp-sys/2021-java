@@ -11,4 +11,8 @@ public class SavingAccounts extends BankAccount{
         double interest = getBalance() * interestRate/100;
         deposit(interest);
     }
+
+    public String toString(){
+        return "BankAccount Balance [" + this.getBalance() + "]";
+    }
 }
