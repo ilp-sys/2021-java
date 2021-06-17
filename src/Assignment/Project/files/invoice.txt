@@ -1,0 +1,12 @@
+               I N V O I C E
+
+Jhon
+150 Watson Street
+Marrylan, V 12842
+
+Description                      Price  Qty   Total
+Drier                            24.95    1   24.95
+Banana                           10.00    1   10.00
+Cutter                            9.00    1    9.00
+
+AMOUNT DUE: $   43.95

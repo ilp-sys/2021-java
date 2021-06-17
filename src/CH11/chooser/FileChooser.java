@@ -1,10 +1,7 @@
 package CH11.chooser;
 
 import javax.swing.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Scanner;
 
 public class FileChooser {
@@ -19,7 +16,7 @@ public class FileChooser {
             System.out.println(inputFileName);
         }
 
-        chooser.setDialogTitle("Output File");
+        chooser.setDialogTitle("Out File");
         if(chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION){
             File selectedFile = chooser.getSelectedFile();
             outputFileName = selectedFile.getAbsolutePath();

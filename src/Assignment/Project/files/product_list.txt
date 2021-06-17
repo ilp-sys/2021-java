@@ -1,0 +1,3 @@
+D: Drier: 24.95
+B: Banana: 10.00
+C: Cutter: 9.00
